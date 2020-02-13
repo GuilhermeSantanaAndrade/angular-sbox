@@ -1,0 +1,8 @@
+<div *ngIf="cliente != undefined" class="modal">
+  <div class="modal_container">
+    <button (click)="onClose()" class="modal_close">X</button>
+    <p>nome: {{ cliente.nome }}</p>
+    <p>idade: {{ cliente.idade }}</p>
+    <button (click)="handleSubmit()">Enviar</button>
+  </div>
+</div>

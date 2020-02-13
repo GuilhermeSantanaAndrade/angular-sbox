@@ -1,0 +1,13 @@
+<div class="bg">
+  <div class="container">
+    <form #frm class="form" (ngSubmit)="onSubmit(frm)">
+      <label>Nome</label>
+      <input type="text" [(ngModel)]="currentCliente.nome" name="nome" />
+
+      <label>Idade</label>
+      <input type="number" [(ngModel)]="currentCliente.idade" name="idade" />
+      <br />
+      <input type="submit" value="Cadastrar" />
+    </form>
+  </div>
+</div>

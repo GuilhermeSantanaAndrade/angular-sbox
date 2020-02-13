@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { EventBusService } from "../services/event-bus.service";
+import { EventBusService } from "../../shared/services/event-bus.service";
 import { ICliente } from "../clientes/icliente";
 import { ClienteService } from "../clientes/clientes.service";
 

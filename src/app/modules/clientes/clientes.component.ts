@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { ICliente } from "./icliente";
-import { EventBusService } from "../services/event-bus.service";
+import { EventBusService } from "../../shared/services/event-bus.service";
 import { FormsModule, NgForm } from "@angular/forms";
 
 @Component({
@@ -20,7 +20,6 @@ export class ClientesComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit(form: NgForm) {
-    debugger;
     console.log(form);
     EventBusService.clienteUpdated.emit(this.currentCliente);
   }

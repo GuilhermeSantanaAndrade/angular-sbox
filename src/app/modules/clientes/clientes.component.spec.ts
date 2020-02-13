@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 import { ClientesComponent } from "./clientes.component";
-import { asyncData, httpClientSpyObject } from "../functions/test-functions";
+import { asyncData, httpClientSpyObject } from "../../shared/test-functions";
 
 describe("ClientesComponent", () => {
   let component: ClientesComponent;

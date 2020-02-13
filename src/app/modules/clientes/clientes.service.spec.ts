@@ -1,7 +1,7 @@
 import { TestBed } from "@angular/core/testing";
 
 import { ClienteService } from "./clientes.service";
-import { httpClientSpyObject, asyncData } from "../functions/test-functions";
+import { httpClientSpyObject, asyncData } from "../../shared/test-functions";
 import { ICliente } from "./icliente";
 
 describe("ClienteService", () => {

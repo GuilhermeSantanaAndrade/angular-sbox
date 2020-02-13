@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { ICliente } from "./icliente";
-import { EventBusService } from "../../shared/services/event-bus.service";
+import { ICliente } from "./../icliente";
+import { EventBusService } from "../../../shared/services/event-bus.service";
 import { FormsModule, NgForm } from "@angular/forms";
 
 @Component({

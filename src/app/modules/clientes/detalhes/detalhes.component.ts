@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { EventBusService } from "../../shared/services/event-bus.service";
-import { ICliente } from "../clientes/icliente";
-import { ClienteService } from "../clientes/clientes.service";
+import { EventBusService } from "../../../shared/services/event-bus.service";
+import { ICliente } from "../../clientes/icliente";
+import { ClienteService } from "../../clientes/clientes.service";
 
 @Component({
   selector: "app-detalhes",
